@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;	
+    font-family:"Poppins" ,sans-serif;
+    }
+  
+     .arun:hover{
+    color:cyan;
+    background-color:yellow;
+    font-size:60px;	
+    }
+  
+    .arun{
+    transition-timing-function: ease-in-out;
+    transition:3s;
+    }
+    .navbar .signup{
+      background-color: rgb(28, 28, 212); 
+      border-radius: 5px;
+    }
+    .navbar .signup a:hover{
+      background-color: rgb(45, 45, 231);
+      border-radius: 5px;
+      color:white;
+    }
+    .dropdown-item:hover{
+    font-size:15px;
+    background-color:red;
+    color:white;
+    }
+    a:hover{
+      color:red;
+    }
+   .navbar-dark .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+   }
+    .dropdown-item{
+        transition-timing-function:ease-in-out;
+    }
+    .dropdown-menu li a{
+      color:black;
+    }
+
+    .dropdown-item{
+    transition-timing-function: ease-in-out;
+    }
+  
+    .nav-item a{
+      color:rgb(250, 246, 246)
+    }
+  .nav-item a:hover{
+    color:#1f8989;
+    }
+  
+    .nav-item a, .navbar-brand{
+    transition:0.5s;
+    transition-timing-function: ease-in-out;
+    }
+  
+    .bgColor{
+      background-color: #F9F9F9;
+      padding:2rem;
+      margin-top:1rem;
+      /* margin-bottom:1rem; */
+    }
+    .container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:white;
+    } 
+  
+    .container h1{
+    color:black;
+    font-size:1.7rem;
+    font-weight:600;
+    }
+    span{
+    color:red; 
+    font-size:2rem;
+    }
+  
+     .bg-img-1{
+      background-image:url("https://thumbs.dreamstime.com/z/stationery-items-black-table-stack-books-notebooks-lie-background-pencils-pens-stand-pink-jar-197091601.jpg");
+      }
+      .bg-img-2{
+      background-image:url("https://previews.123rf.com/images/denisfilm/denisfilm1907/denisfilm190700183/126877047-school-stationery-background-group-of-books-and-various-school-items-on-wooden-table-back-to.jpg");
+      }
+      .bg-img-3{
+      background-image:url("https://images.pexels.com/photos/998591/pexels-photo-998591.jpeg?cs=srgb&dl=pexels-jessica-lewis-creative-998591.jpg&fm=jpg");
+      }
+      .carousel-image{
+      height:75vh;
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position:center;
+      }
+      .search{
+      width:0rem;
+      padding:0rem;
+      visibility:hidden;
+      transition:1s;
+      transition-timing-function:linear;
+      }
+      .form-inline:hover > .search{
+      width:10rem;
+      padding:0.2rem;
+      border:none;
+      outline:none;
+      visibility:visible;
+      }
+      .form-inline:hover > a{
+      text-decoration:none;
+      color:purple;
+      }
+      .card-group img{
+      height:100px;
+      margin-left:auto;
+      margin-left:auto;
+      width:50%;
+      }
+      .card-title,.card-text{
+      text-align:center;
+      }
+      .border{
+      width:10px;
+      }
+      .arunn{
+      height:300px;
+      width:300px;
+      }
+      .price{
+      height:20px;
+      width:20px;
+      }
+      .add{
+      height:20px;
+      width:20px;
+      }
+      .flex{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:30px;
+      width:25px;
+      margin-left:130px;
+      }
+      .card-wrapper{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+
+      }
+      .carousel-control-prev-icon:after{
+        content :" ";
+      }
+      .carousel-control-next-icon:after{
+        content :" ";
+      }
+      .card{
+        width:18rem;
+        margin:2rem;
+      }
+      /* .card{
+        margin: .5rem;
+        width:calc(100%/3);
+      } */
+      
+      .list-unstyled li{
+      margin-left:15px;
+      margin-right:15px;
+      margin-top:15px;
+      }
+      .list-unstyled{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      }
+      .list-unstyled a{
+      text-decoration:none;
+      color:green;
+      font-size:30px;
+      }
+      .service{
+        height:30px;
+        width:20px;
+      }
+      .Flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:1rem;
+      }
+
+      @media screen and (max-width:1000px){
+          .card-wrapper{
+            display: flex;
+            flex-direction: column;
+            width:100%;
+            margin: auto;
+          }
+      }
+
+      @media screen and (max-width:768px) {
+        .Flex{
+          flex-direction: column;
+          width:100%;
+          margin:auto;
+      }
+      Flex img{
+        height: 100px;
+        width: 100px;
+      }
+      .owl-stage{
+        flex-direction: column;
+        width:100%;
+      }
+      .flex img{
+        display:none;
+      }
+    }
+    @media screen and (max-width:400px){
+      .carousel-image{
+        height:45vh;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        }
+    }

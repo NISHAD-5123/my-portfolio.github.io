@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Required meta tags -->
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/cricket.css" rel="stylesheet">
+    <title>cricket management </title>
+  </head>
+  <div>
+ <nav class="navbar navbar-expand-lg  navbar-dark bg-dark sticky-top">
+  <div class="container">
+  <div>
+    <a class="navbar-brand" href="#">
+      <img src="https://cdn-icons-png.flaticon.com/512/7153/7153211.png" alt="" width="60" height="50">
+    </a>
+	
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	</div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link  shadow" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Manager
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Nishad Arun</a></li>
+            <li><a class="dropdown-item" href="#">Mourya Raj</a></li>
+            <li><a class="dropdown-item" href="#">Yadav Shivam</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link  shadow" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Best Features
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">IPL League</a></li>
+            <li><a class="dropdown-item" href="#">Foreign Tour</a></li>
+            <li><a class="dropdown-item" href="#">Best Squad</a></li>
+          </ul>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link  shadow" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Stadium list
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Wankhade</a></li>
+            <li><a class="dropdown-item" href="#">Mohali</a></li>
+            <li><a class="dropdown-item" href="#">Lucknow</a></li>
+          </ul>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link  shadow" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Location
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Mumbai</a></li>
+            <li><a class="dropdown-item" href="#">Punjab</a></li>
+            <li><a class="dropdown-item" href="#">Uttar-pradesh</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link  shadow" href="#" data-bs-toggle="dropdown" aria-expanded="false">Budget</a>
+		    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Ipl Matches Budget</a></li>
+            <li><a class="dropdown-item" href="#">Test Matches Budget</a></li>
+            <li><a class="dropdown-item" href="#">ODI Matches Budget</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Log in</a>
+        </li>
+
+        <li class="nav-item signup">
+          <a class="nav-link " href="#">Sign Up</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+<div id="carouselExampleCaptions" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions " data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions " data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions " data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active image img-1" data-bs-interval="1500">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="fs-2 fw-bold">WANKHADE STADIUM</h5>
+        <p class="fs-3 fw-bold">One of the most dangerous and high scoring stadium</p>
+      </div>
+    </div>
+    <div class="carousel-item image img-2" data-bs-interval="1500">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="fs-2 fw-bold">MOHALI STADIUM</h5>
+        <p class="fs-3 fw-bold">One of the beautiful and bowler helpful stadium.</p>
+      </div>
+    </div>
+    <div class="carousel-item image img-3" data-bs-interval="1500">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="fs-2 fw-bold">LUCKNOW STADIUM</h5>
+        <p class="fs-3 fw-bold">One of the toughest pitch for Batsman to bat.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="space">
+</div>
+
+<!-- bowler area-->
+<div class="col-10 mx-auto">
+<div class=" container-autotext my-4"> Best Bowler Forever&nbsp;<span class="autotext1"></span></div>
+<div class="row card-group my-1 gy-3">
+  <div class="col">
+  <div class="card shadow  bg-body-tertiary rounded">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqSgWFjQmVbaDgz5sZ6TC8Beu1pECqwAAOQ&usqp=CAU" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Jasprit Bumrah</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card mx-auto shadow bg-body-tertiary rounded">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3WQsD-AFPA3XlJMUct7boWk63L8jSjlCEJg&usqp=CAU" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bhuvneshwar Kumar</h5>
+      <p class="card-text">He is Very Cool.This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card shadow  bg-body-tertiary rounded">
+    <img src="https://media.gettyimages.com/id/1338688219/photo/ravindra-jadeja-of-india-celebrates-dismissing-moeen-ali-of-england-during-day-five-of-the.jpg?s=612x612&w=gi&k=20&c=r2qLFiv3PQwE1PYHSMubaF1KH6gsWqiKBStKyLaYh3k=" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Ravidra Jadeja</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.This is very Nice .</p>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="space"></div>
+
+<!-- batsman area-->
+<div class="col-10 mx-auto">
+<div class="container-autotext my-4"> Best Batter Forever&nbsp;<span class="autotext"></span></div>
+<div class="row card-group my-1 gy-3">
+  <div class="col">
+  <div class="card shadow  bg-body-tertiary rounded">
+    <img src="https://www.insidesport.in/wp-content/uploads/2021/04/sachintendulkar.jpg?w=690" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sachin Tendulkar</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card  shadow  bg-body-tertiary rounded">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxk9vPGJ4nd1_MXSQW_L1qo4n8xZIp1j18rA&usqp=CAU" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Virat kohli</h5>
+      <p class="card-text">He is Aggressive This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card  shadow  bg-body-tertiary rounded">
+    <img src="https://hindi.cricketaddictor.com/wp-content/uploads/2022/01/Ms-Dhoni-six-jpg.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">MS Dhoni</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This is very Nice</p>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="space"></div>
+<h2 class="text-center text-capitalize fw-light mx-auto">Frequently asked question</h2>
+<div class="row">
+<div class="col-10 mx-auto">
+<div class="accordion accordion-flush shadow-sm mb-1" id="accordionFlushExample">
+  <div class="accordion-item shadow-sm mb-1">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+       best all-rounder in T-20 format?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">   Ravindra Jadeja is the best all rounder with 451 ICC ranking points</div>
+    </div>
+  </div>
+  <div class="accordion-item shadow-sm mb-1">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        best bowler in T-20 format?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> Bhuvneshwar kumar is the best bowler with 460 ICC ranking points</div>
+    </div>
+  </div>
+  <div class="accordion-item shadow-sm mb-1">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+         best batsman in T-20 format?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Virat Kohli is the best batsman with 490 ICC ranking points</div>
+    </div>
+  </div>
+  <div class="accordion-item shadow-sm mb-1">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+       best bolwer in ODI format?
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> Jasprit bumrah is the best all rounder with 451 ICC ranking points</div>
+    </div>
+  </div>
+  <div class="accordion-item shadow-sm mb-1">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseTwo">
+     best batsman in ODI format?
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> Rohit sharma is the best all rounder with 451 ICC ranking points</div>
+    </div>
+  </div>
+  <div class="accordion-item shadow-sm mb-1">
+    <h2 class="accordion-header" id="flush-headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+       best all-rounder in ODI format?
+      </button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> Ravindra Jadeja is the best all rounder with 451 ICC ranking points</div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+ <footer class="footer arun">
+
+   <div class="section1">
+      <ul class="nav flex-column">
+	    <li class="nav-item mb-2"><span class="fw-bolder FontSize nav-link p-0 text-body-secondary">About</span></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">ground</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">About</a></li>
+      </ul>
+    </div>
+
+<div class="section3">
+      <ul class="nav flex-column">
+	  <li class="nav-item mb-2"><span class="fw-bolder FontSize nav-link p-0 text-body-secondary">Links</span></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold"><i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;Twitter</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold"><i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;Facebook</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold"><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;Instagram</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold"><i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold"><i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</a></li>
+      </ul>
+    </div>
+	
+    <div class="section2">
+      <ul class="nav flex-column">
+	  <li class="nav-item mb-2"><span class="fw-bolder FontSize nav-link p-0 text-body-secondary">Information</span></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">season</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">world-cups</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">icc ranking</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">weather</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fw-bold">league</a></li>
+      </ul>
+    </div>
+	</footer>
+	<footer class="end-footer">
+	<p class="text-white text-center">© 2023 Arun & Management, Including all taxes</p>
+	</footer>
+	
+
+	
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js">
+  </script>
+  <script>
+  var typed=new Typed(".autotext",
+  {strings:["Virat Kohli","Sachin Tendulkar","MS Dhoni"],
+  typeSpeed:150,
+  backSpeed:150,
+  loop:true
+  })
+  </script>
+  <script>
+  var typed=new Typed(".autotext1",
+     {
+  strings:["Ravindra Jadeja","Ashwin","Bhuvneshwar"],
+  typeSpeed:150,
+  backSpeed:150,
+  loop:true
+  })
+  </script>
+  <script src="https://kit.fontawesome.com/8a1f7b5484.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

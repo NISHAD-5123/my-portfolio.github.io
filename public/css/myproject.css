@@ -1,0 +1,9 @@
+.make-center{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+body{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}

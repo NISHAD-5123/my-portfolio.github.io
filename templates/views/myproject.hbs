@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="css/myproject.css" rel="stylesheet">
+  </head>
+  <body>
+    {{>header}}
+    <h1 class="text-center fw-bolder mt-5 text-shadow">My Project Description</h1>
+    <div class="make-center mt-5">
+      <div class="card" style="width: 18rem;">
+  <img src="https://images.moneycontrol.com/static-hindinews/2023/01/bookstationaryFB-770x430.jpg?impolicy=website&width=770&height=431" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fw-bolder">Stationary Shop</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="/project2" class="btn btn-primary">Check Project</a>
+  </div>
+</div>
+
+  <div class="card" style="width: 18rem;">
+  <img src="https://media.istockphoto.com/id/642535354/photo/the-tools-for-a-cricket.jpg?s=612x612&w=0&k=20&c=13p98MppBy2hfzLy-nXbE1cs8KCe4eBkCNSdflzqlRc=" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fw-bolder">Cricket Management System</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="/project1" class="btn btn-primary">Check Project</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fw-bolder">Portfolio Design</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="/project3" class="btn btn-primary">Check Project</a>
+  </div>
+</div>
+</div>
+{{>footer}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

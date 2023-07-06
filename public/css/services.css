@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+.main_content img{
+    height: 150px;
+    width:150px;
+    display: flex;
+    margin-left: 10rem;
+    /* background-size: cover;
+    background-position: center; */
+}
+.bgColor{
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
